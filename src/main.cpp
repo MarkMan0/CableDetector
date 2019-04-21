@@ -1,5 +1,13 @@
+
+#define DISP_ADDR   (0x3C)
+
+
 #include <Arduino.h>
 #include "ADC_ADS1015.h"
+
+#include "Adafruit_SSD1306.h"
+
+
 
 #define DEBUG 1
 
